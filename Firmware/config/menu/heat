@@ -1,0 +1,24 @@
+button R0 C0 F0 T" BACK " A"return"
+text T" "
+image R11 C0 L"hline.img"
+text R18 C0 F0 T"Bed"
+button C23 T"Off" A"M140 S0"
+button C45 T"60" A"M140 S60"
+button C65 T"70" A"M140 S70"
+button C85 T"90" A"M140 S90"
+button C105 T"110" V3 A"M140 S110"
+text R33 C0 F0 T"E"
+button C19 T"Off" A"M104 S0"
+button C41 T"130" A"M104 S130"
+button C62 T"200" A"M104 S200"
+button C83 T"210" A"M104 S210"
+button C104 T"230" A"M104 S230"
+image R51 C0 L"hline.img"
+text R52 C2 F1 T"Bed "
+value N180
+text T"/"
+value N80
+text T" E "
+value N100
+text T"/"
+value N0

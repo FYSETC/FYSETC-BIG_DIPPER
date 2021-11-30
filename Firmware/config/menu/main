@@ -1,0 +1,47 @@
+; "Not printing" Menu
+; V2 = displayed when printing but not paused
+; V5 = displayed when mnt printing and not paused
+; V6 = displayed when paused
+
+; 1st button
+button R0 C0 W32 F0 V5 T"Heat" A"menu heat"
+button R0 C0 W32 F0 V2 T"Tune" A"menu tune"
+button R0 C0 W32 F0 V6 T"Resume" A"M24"
+
+; 2nd button
+button C32 W32 V5 T"MoveÜ" A"menu move"
+button C32 W32 V2 T"Pause" A"M25"
+button C32 W32 V6 T"Abort" A"M0"
+
+; 3rd button
+button C64 W32 V5 T"Printß" A"menu listFiles0"
+
+; 4th button, temporarily common to all 3 menus
+button R0 C96 W32 T"Status" A"menu status"
+
+image R11 C0 L"hline.img"
+text R14 C22 F0 T"Bed"
+alter C45 N180 W20
+text T" / "
+value N80 W20
+text T"°C"
+text R26 C22 F0 T"E0"
+alter C45 N100 W20
+text T" / "
+value N0 W20
+text T"°C"
+text R38 C22 F0 T"Fan"
+alter C45 N300 W30
+button C80 T"ChangeFil" A"M98 P/macros/filament_change.g"
+image R51 C0 L"hline.img"
+
+text V5 R52 C5 F1 T"X "
+alter V5 N510 W25
+text V5 T" Y "
+alter V5 N511 W25
+text V5 T" Z "
+alter V5 N512 D2 W30
+
+; babystepping
+text V4 R52 C0 "Baby step "
+alter V4 N521 D2

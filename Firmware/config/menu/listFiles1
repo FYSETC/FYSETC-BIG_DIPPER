@@ -1,0 +1,4 @@
+text R0 C0 F0 T"Select card 1 print file "
+button T"Back" A"return"
+image R11 C0 L"hline.img"
+files R15 N4 I"1:/" A"M32 #0|return|return"

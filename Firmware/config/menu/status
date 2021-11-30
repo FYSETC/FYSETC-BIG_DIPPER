@@ -1,0 +1,15 @@
+button R0 C0 F0 T" BACK " A"return"
+
+text R10 C0 F0 "Time left, filament "
+value N537 C88 W40 H2
+text R20 C0 "Time left, file "
+value N536 C88 W40 H2
+text R30 C0 "Requested speed "
+value N538 C88 W40 D1 H2
+text R40 C0 "Actual top speed "
+value N539 C88 W40 D1 H2
+text R50 C0 "Speed "
+alter N500
+text C64 "Extr "
+alter N400
+

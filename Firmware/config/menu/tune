@@ -1,0 +1,14 @@
+button R0 C0 F0 T" BACK " A"return"
+text T" "
+image R11 C0 L"hline.img"
+text R18 C15 F0 T"Extrusion factor"
+alter C95 N400
+text R33 C15 F0 T"Speed factor"
+alter C95 N500
+image R51 C0 L"hline.img"
+text R52 C5 F1 T"X "
+value N510 W25
+text T" Y "
+value N511 W25
+text T" Z "
+value N512 D2 W30 
