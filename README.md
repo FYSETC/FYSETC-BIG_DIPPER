@@ -79,11 +79,11 @@ There are two ways to connect the screen to the motherboard:
 M575 P1 S1 B57600                   ; enable support for PanelDue
 ```
 
-![image_04](images\image_04.bmp)
+![image_04](images/image_04.bmp)
 
-![image_06](images\image_06.bmp)
+![image_06](images/image_06.bmp)
 
-![image_05](images\image_05.bmp)
+![image_05](images/image_05.bmp)
 
 
 
