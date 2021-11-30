@@ -34,7 +34,7 @@ https://github.com/Duet3D/RepRapFirmware/releases
 
   The motherboard needs to provide a 24V power supply, and the jumper cap in the 5V_SELECT position is required to select 5V&DCV
 
-  ![image_01](images\image_01.png)
+  ![image_01](images/image_01.png)
 
 - **Step 2: Update firmware**
 
