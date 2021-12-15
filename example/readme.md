@@ -20,6 +20,9 @@ Also for the Endstops and the proximity sensor the Pinning is very impotant. The
 <img src="pictures/endstops1.jpg" width="300">
 <img src="pictures/endstop2.jpg" width="300">
 
+For the Probe I needed for this project also +24V and for the Casefan there was no additional Fan Plug free. So both went to 24V.
+<img src="pictures/24V.jpg" width="300">
+
 ## PINout
 | Function | PIN | comment |
 | --- | --- | --- |
