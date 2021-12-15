@@ -40,5 +40,5 @@ For the Probe I needed for this project also +24V and for the Casefan there was 
 | Hotend E1 | E1 Out | right  Printhead |
 
 ## Tasks
-[ ] PINout  
-[ ] Firmware
+- [ ]  PINout  
+- [ ]  Firmware
