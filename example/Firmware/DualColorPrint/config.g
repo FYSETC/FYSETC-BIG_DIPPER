@@ -79,9 +79,11 @@ M106 P3 C"Part E1" S0 I0 H-1                    ; set fan 3 name and value. Ther
 M563 P0 S"Nozzle left" D0 H1 F2                 ; define tool 0
 G10 P0 X0 Y0 Z0                                 ; set tool 0 axis offsets
 G10 P0 R0 S0                                    ; set initial tool 0 active and standby temperatures to 0C
+M572 D0 S1.1                                    ; Preasure Advanced Seetings for Tool 0
 M563 P1 S"Nozzle right" D1 H2 X3 F3             ; define tool 1, X3 tells the firmware that the X axis should be mapped to axis #3 which is the U axis.
-G10 P1 Y0 U-3.6 Z0                            ; set tool 1 axis offsets
+G10 P1 Y0 U-3.4 Z0                            ; set tool 1 axis offsets
 G10 P1 R0 S0                                    ; set initial tool 1 active and standby temperatures to 0C
+M572 D1 S1.1                                    ; Preasure Advanced Seetings for Tool 1
 
 ; Custom settings are not defined
 
