@@ -23,7 +23,6 @@ Also for the Endstops and the proximity sensor the Pinning is very impotant. The
 For the Probe I needed for this project also +24V and for the Casefan there was no additional Fan Plug free. So both went to 24V.
 <img src="pictures/24V.jpg" width="300">
 
-## PINout
 | Function | PIN | comment |
 | --- | --- | --- |
 | Y Axis Motor | Driver 0 | |
@@ -38,7 +37,12 @@ For the Probe I needed for this project also +24V and for the Casefan there was 
 | Heated Bed | Bed out | |
 | Hotend E0 | E0 out | left Printhead |
 | Hotend E1 | E1 Out | right  Printhead |
-
-## Tasks
-- [ ]  PINout  
-- [ ]  Firmware
+| X-Endstop | io6.in | see pic for PIN |
+| U-Endstop | io4.in | see pic for PIN |
+| Y-Endstop | io5.in | see pic for PIN |
+| Z-Probe | io0.in | only for Signal, see pic for PIN |
+| Bed Thermistor | out0 |  |
+| E0  Thermistor | out1 |  |
+| E1  Thermistor | out2 |  |
+| Case fan | 24V out |  |
+| Z-Probe | 24V out |  |
