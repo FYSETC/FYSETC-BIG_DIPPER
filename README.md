@@ -77,8 +77,9 @@ https://github.com/Duet3D/RepRapFirmware/releases
 
 If you want to build a machine with RRF firmware on the big-dipper motherboard, then you can use four ways to communicate/control with big-dipper. They are USB serial, mini12864, Panel-due and Ethernet/WIFI Module. And you can get sch files on Hardware folder next to this README.
 
-Wiring diagram
-![Big-Dipper Wiring.png](images/Big-Dipper Wiring.png.png)
+**Wiring diagram**
+
+![Big-Dipper Wiring](images/Big-Dipper%20Wiring.png)
 
 ### 3.1 USB serial
 
