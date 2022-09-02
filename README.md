@@ -49,13 +49,19 @@ FYSETC BIG DIPPER motherboard, reprap firmware(RRF), 32bit 3d pirnter motherboar
 
 The motherboard is developed on the basis of the due3mini5+ motherboard, and the firmware is compatible. 
 
-Duet3 mini5+ user guide:
+Firmware Configuring:
 
-https://duet3d.dozuki.com/Wiki/Getting_Started_with_Duet_3_Mini_5plus
+https://docs.duet3d.com/en/How_to_guides/Configuring_firmware
 
 duet3mini5+ firmware:
 
 https://github.com/Duet3D/RepRapFirmware/releases
+
+- Compatible RepRapFirmware versions: RRF 3.2 and later
+
+For firmware update instructions, see [Installing and updating firmware](https://docs.duet3d.com/User_manual/RepRapFirmware/Updating_firmware).
+
+If running from an SBC, see [SBC setup for Duet 3](https://docs.duet3d.com/User_manual/Machine_configuration/SBC_setup).
 
 ### 2.1 Steps to use RRF
 
