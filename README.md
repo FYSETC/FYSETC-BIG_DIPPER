@@ -85,7 +85,7 @@ If you want to build a machine with RRF firmware on the big-dipper motherboard, 
 
 **Wiring diagram**
 
-![Big-Dipper Wiring](images/Big-Dipper%20Wiring.png)
+![Big-Dipper Wiring](images/Big-Dipper%20Wiring%20Fixed.png)
 
 ### 3.1 USB serial
 
